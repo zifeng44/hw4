@@ -13,4 +13,5 @@ What are two ways of increasing the spacing between rings?
 2. I don't know
 
 How can you make the ellipse trail longer?
-If I make more circle on it, then the trail will be longer.
+ ellipse(x[i*2], y[i*2], 1 + (x.length - i));
+ i*2
